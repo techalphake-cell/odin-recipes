@@ -16,12 +16,12 @@
 }
 .nav-links ul li a {
   text-decoration: none;
-  color: black;
+  color: blue;
   font-size: 20px;
 }
 .header {
   text-align: center;
-  margin-top: 50px;
+  border: 1px solid black;
 }
 .header h1 {
   font-size: 50px;
@@ -30,4 +30,53 @@
 .header p {
   font-size: 20px;
   color: blue;
+}
+.content-box {
+  border: 1px black solid;
+  background-color: burlywood;
+  padding: 20px;
+  height: auto;
+}
+.description {
+  padding: 20px;
+}
+.description h3 {
+  font-size: 24px;
+  color: blue;
+  margin-top: 5px;
+}
+.description h1 {
+  font-size: 36px;
+  color: blue;
+}
+.description p {
+  font-size: 18px;
+  color: #555;
+}
+.description img {
+  display: block;
+
+  border-radius: 10px;
+}
+.recipe {
+  padding: 20px;
+  margin: 10px;
+}
+.ingredients,
+.steps {
+  padding: 10px;
+}
+.ingredients h3,
+.steps h3 {
+  font-size: 24px;
+  color: blue;
+}
+.ingredients ul,
+.steps ol {
+  margin-left: 20px;
+}
+.ingredients ul li,
+.steps ol li {
+  font-size: 18px;
+  color: #555;
 }
